@@ -1,4 +1,4 @@
-package com.company;
+package tapshyrma17_1;
 
 public class Horse extends AbstractAnimal{
     private double weight;

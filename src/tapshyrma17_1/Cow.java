@@ -1,12 +1,12 @@
-package com.company;
+package tapshyrma17_1;
 
-public class Sheep extends AbstractAnimal{
+public class Cow extends AbstractAnimal{
     private double weight;
     private int age;
     private String gender;
     private String nickName;
 
-    public Sheep(String nickName, int age, double weight, String gender){
+    public Cow(String nickName, int age, double weight, String gender){
         this.nickName = nickName;
         this.age = age;
         this.weight = weight;
@@ -14,7 +14,7 @@ public class Sheep extends AbstractAnimal{
     }
     @Override
     public void voice(){
-        System.out.println("The sheep says: maa maa");
+        System.out.println("The cow says: muu muu");
     }
 
     public void setAge(int age) {
@@ -48,4 +48,5 @@ public class Sheep extends AbstractAnimal{
     public String getNickName() {
         return nickName;
     }
+
 }

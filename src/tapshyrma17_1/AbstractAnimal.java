@@ -1,4 +1,4 @@
-package com.company;
+package tapshyrma17_1;
 
 public abstract class AbstractAnimal {
     public abstract void voice();
